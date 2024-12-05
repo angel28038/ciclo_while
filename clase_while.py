@@ -46,13 +46,13 @@
 #lecturas de un sensor
 # simular las lecturas de un sensor que medira valores aleatorios hasta que alcanze un valor objetivo.
 
-import random
-sensor = random.randint(0,50)
-objetivo=40
-contador=1
+# import random
+# sensor = random.randint(0,50)
+# objetivo=40
+# contador=1
 
-while sensor <objetivo:
-    print(f"en la lectura numero: {contador}, el valor del sensor es:{sensor}")
-    sensor+= random.randint(1,10)
-    contador +=1
-print (f"la lectura final alcanzada fue: {sensor}")
+# while sensor <objetivo:
+#     print(f"en la lectura numero: {contador}, el valor del sensor es:{sensor}")
+#     sensor+= random.randint(1,10)
+#     contador +=1
+# print (f"la lectura final alcanzada fue: {sensor}")
